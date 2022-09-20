@@ -13,7 +13,8 @@ repositories {
 }
 
 val fluencyVersion = "2.6.5"
-val junitVersion = "5.8.2"
+val junitVersion = "5.9.0"
+val jacksonVersion = "2.13.4"
 
 dependencies {
     implementation("org.apache.logging.log4j:log4j-core:2.18.0")
@@ -24,7 +25,7 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:$junitVersion")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$junitVersion")
-    testImplementation("org.mockito:mockito-core:4.6.1")
+    testImplementation("com.fasterxml.jackson.core:jackson-databind:$jacksonVersion")
 }
 
 java {

@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  fluentd:
+    image: fluent/fluentd:v1.12.0-debian-1.0
+    environment:
+      FLUENTD_OPT: -v
+    ports:
+      - "24224:24224"
+      - "24224:24224/udp"
+    volumes:
+      - /tmp/fluentd/log:/fluentd/log/
+      - ./docker-compose/fluent.conf:/fluentd/etc/fluent.conf:ro
