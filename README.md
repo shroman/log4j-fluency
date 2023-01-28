@@ -13,7 +13,7 @@ implementation("io.github.shroman:log4j-fluency:${appenderVersion}")
 ```
 packages = org.apache.logging.log4j.core,io.github.shroman.log4j-fluency
 
-rootLogger.appenderRef.sentry.ref = Fluency
+rootLogger.appenderRef.Fluency.ref = Fluency
 
 appender.Fluency.name = Fluency
 appender.Fluency.type = Fluency
