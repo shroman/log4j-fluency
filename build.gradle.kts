@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "io.github.shroman"
-version = "1.0.2-SNAPSHOT"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -31,6 +31,9 @@ dependencies {
 java {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
+
+    withJavadocJar()
+    withSourcesJar()
 }
 
 tasks.withType<Test> {
