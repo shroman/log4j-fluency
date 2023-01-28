@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "io.github.shroman"
-version = "1.0.1-SNAPSHOT"
+version = "1.0.2-SNAPSHOT"
 
 repositories {
     mavenCentral()
@@ -14,7 +14,7 @@ repositories {
 
 val fluencyVersion = "2.6.5"
 val junitVersion = "5.9.0"
-val jacksonVersion = "2.13.4"
+val jacksonVersion = "2.13.4.1"
 
 dependencies {
     implementation("org.apache.logging.log4j:log4j-core:2.19.0")
