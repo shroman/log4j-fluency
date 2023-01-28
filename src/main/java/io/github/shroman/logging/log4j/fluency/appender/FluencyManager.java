@@ -42,7 +42,7 @@ public class FluencyManager extends AbstractManager {
             event.putAll(logEvent.getContextData().toMap());
         }
 
-        if (logEvent.getContextStack() != null) {
+        if (logEvent.getContextStack() != null && !logEvent.getContextStack().isEmpty()) {
             event.put("contextStack", logEvent.getContextStack().asList().toArray());
         }
 
