@@ -14,7 +14,7 @@ repositories {
 
 val fluencyVersion = "2.6.5"
 val junitVersion = "5.9.0"
-val jacksonVersion = "2.13.4.1"
+val jacksonVersion = "2.14.2"
 
 dependencies {
     implementation("org.apache.logging.log4j:log4j-core:2.19.0")
