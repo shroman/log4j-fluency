@@ -1,3 +1,5 @@
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.shroman/log4j-fluency.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.shroman%22%20AND%20a:%22log4j-fluency%22)
+
 [Fluency](https://github.com/komamitsu/fluency) appender.
 
 ### Install
