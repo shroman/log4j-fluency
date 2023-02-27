@@ -2,7 +2,7 @@ plugins {
     java
     `maven-publish`
     signing
-    id("com.github.johnrengelman.shadow") version "7.1.2"
+    id("com.github.johnrengelman.shadow") version "8.0.0"
 }
 
 group = "io.github.shroman"
