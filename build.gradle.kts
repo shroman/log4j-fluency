@@ -17,7 +17,7 @@ val junitVersion = "5.9.3"
 val jacksonVersion = "2.14.2"
 
 dependencies {
-    implementation("org.apache.logging.log4j:log4j-core:2.19.0")
+    implementation("org.apache.logging.log4j:log4j-core:2.20.0")
 
     implementation("org.komamitsu:fluency-core:$fluencyVersion")
     implementation("org.komamitsu:fluency-fluentd:$fluencyVersion")
