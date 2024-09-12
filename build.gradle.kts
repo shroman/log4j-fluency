@@ -13,7 +13,7 @@ repositories {
 }
 
 val fluencyVersion = "2.7.0"
-val junitVersion = "5.10.3"
+val junitVersion = "5.11.0"
 val jacksonVersion = "2.16.1"
 
 dependencies {
