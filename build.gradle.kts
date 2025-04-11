@@ -12,7 +12,7 @@ repositories {
     mavenCentral()
 }
 
-val fluencyVersion = "2.7.0"
+val fluencyVersion = "2.7.3"
 val junitVersion = "5.10.3"
 val jacksonVersion = "2.18.2"
 
